@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wrapped in Flavour — Homemade Canadian Food | Mississauga, ON</title>
+  <meta name="description" content="Authentic homemade Canadian wraps and meals crafted with love in Mississauga, Ontario. Order via WhatsApp today." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Jost:wght@300;400;500;600;700&family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo">
+        <span class="logo-icon">🌯</span>
+        <div class="logo-text">
+          <span class="logo-main">Wrapped in Flavour</span>
+          <span class="logo-sub">Mississauga, Ontario</span>
+        </div>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="nav-link active">Home</a></li>
+        <li><a href="menu.html" class="nav-link">Menu</a></li>
+        <li><a href="about.html" class="nav-link">About Us</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+        <li>
+          <a href="https://wa.me/1XXXXXXXXXX?text=Hi!%20I'd%20like%20to%20place%20an%20order%20from%20Wrapped%20in%20Flavour%20🌯" target="_blank" class="nav-cta">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Order Now
+          </a>
+        </li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg-pattern" id="bgPattern"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-badge reveal">🍁 Proudly Canadian · Mississauga, ON</div>
+      <h1 class="hero-title reveal">
+        <span class="hero-line1">Every Bite</span>
+        <span class="hero-line2">Wrapped in</span>
+        <span class="hero-line3">Pure Flavour</span>
+      </h1>
+      <p class="hero-desc reveal">Fresh homemade wraps, bowls &amp; bites crafted with love.<br>Family recipes. Bold spices. Made right here in Canada.</p>
+      <div class="hero-btns reveal">
+        <a href="menu.html" class="btn-primary">Explore Our Menu</a>
+        <a href="https://wa.me/1XXXXXXXXXX?text=Hi!%20I'd%20like%20to%20place%20an%20order%20🌯" target="_blank" class="btn-whatsapp">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Order via WhatsApp
+        </a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>Scroll Down</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- MARQUEE STRIP -->
+  <div class="marquee-strip">
+    <div class="marquee-inner">
+      <span>🌯 Fresh Wraps</span>
+      <span>🌶️ Spicy Bites</span>
+      <span>🧀 Loaded Quesadillas</span>
+      <span>🥑 Avocado Bowls</span>
+      <span>🍗 Crispy Chicken</span>
+      <span>🧆 Falafel Wraps</span>
+      <span>🫙 House Sauces</span>
+      <span>🍁 Proudly Canadian</span>
+      <span>📍 Mississauga, ON</span>
+      <span>🌯 Fresh Wraps</span>
+      <span>🌶️ Spicy Bites</span>
+      <span>🧀 Loaded Quesadillas</span>
+      <span>🥑 Avocado Bowls</span>
+      <span>🍗 Crispy Chicken</span>
+      <span>🧆 Falafel Wraps</span>
+      <span>🫙 House Sauces</span>
+      <span>🍁 Proudly Canadian</span>
+      <span>📍 Mississauga, ON</span>
+    </div>
+  </div>
+
+  <!-- FEATURES STRIP -->
+  <section class="features">
+    <div class="container">
+      <div class="features-grid">
+        <div class="feature-card reveal">
+          <div class="feature-icon">🌿</div>
+          <h3>Fresh Daily</h3>
+          <p>Every wrap is prepared fresh — no freezers, no shortcuts. Homemade with love every single day.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon">🌍</div>
+          <h3>Global Flavours</h3>
+          <p>Inspired by cuisines from around the world, crafted right here in Mississauga, Canada.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon">🏡</div>
+          <h3>Homemade Quality</h3>
+          <p>Family recipes passed down with care. Every sauce, every marinade — made from scratch.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon">❤️</div>
+          <h3>Made with Love</h3>
+          <p>Our homemade sauces and secret spice blends are in every single bite. Taste the difference.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SIGNATURE SECTION -->
+  <section class="signature-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Our Signatures</span>
+        <h2 class="section-title">Can't-Miss <em>Wraps</em></h2>
+        <p class="section-desc">Handcrafted with the finest ingredients. Browse our menu and place your order via WhatsApp.</p>
+      </div>
+      <div class="wrap-cards">
+        <div class="wrap-card reveal">
+          <div class="wrap-img-wrap">
+            <div class="wrap-emoji">🌯</div>
+            <div class="wrap-badge">Best Seller</div>
+          </div>
+          <div class="wrap-info">
+            <h3>The Classic Crispy Chicken</h3>
+            <p>Golden fried chicken, garlic aioli, pickled slaw, fresh lettuce in a warm toasted tortilla.</p>
+            <div class="wrap-footer">
+              <span class="price">$12.99</span>
+              <a href="contact.html" class="btn-small">Order Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="wrap-card reveal">
+          <div class="wrap-img-wrap spicy">
+            <div class="wrap-emoji">🌶️</div>
+            <div class="wrap-badge hot">🔥 Spicy</div>
+          </div>
+          <div class="wrap-info">
+            <h3>The Inferno Beef</h3>
+            <p>Spiced ground beef, ghost pepper salsa, jalapeños, nacho cheese, crispy onions.</p>
+            <div class="wrap-footer">
+              <span class="price">$13.99</span>
+              <a href="contact.html" class="btn-small">Order Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="wrap-card reveal">
+          <div class="wrap-img-wrap veggie">
+            <div class="wrap-emoji">🥑</div>
+            <div class="wrap-badge green">🌿 Veggie</div>
+          </div>
+          <div class="wrap-info">
+            <h3>The Green Goddess</h3>
+            <p>Creamy avocado, falafel, tzatziki, roasted veggies, spinach and lemon zest.</p>
+            <div class="wrap-footer">
+              <span class="price">$11.99</span>
+              <a href="contact.html" class="btn-small">Order Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="center-cta reveal">
+        <a href="menu.html" class="btn-primary">View Full Menu →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CHEF SECTION -->
+  <section class="chef-section">
+    <div class="container">
+      <div class="chef-grid">
+        <div class="chef-visual reveal">
+          <div class="chef-deco-circle"></div>
+          <div class="chef-img-frame">
+            <div class="chef-emoji-main">👩‍🍳</div>
+          </div>
+          <div class="chef-badge-floating">
+            Est. 2021
+            <span>Mississauga, ON 🍁</span>
+          </div>
+        </div>
+        <div class="chef-content reveal">
+          <span class="section-tag">Meet the Chef</span>
+          <h2 class="chef-name">The Heart Behind<br>Every <em>Bite</em></h2>
+          <p class="chef-title">Founder & Head Chef · Wrapped in Flavour</p>
+          <div class="chef-story">
+            <p>What started as a passion for feeding loved ones became something the whole community fell in love with. Growing up surrounded by rich culinary traditions from across the globe, I always believed that food is more than just a meal — it's a story, a memory, a warm embrace.</p>
+            <p>In 2021, I turned my home kitchen into the heart of Wrapped in Flavour right here in Mississauga, Ontario. Every wrap I make carries the same love as the very first one I ever made for my family. From my secret garlic toum to my house-marinated chicken — everything is made fresh, by hand, with no shortcuts.</p>
+            <p>Canada gave me a home, and through every flavourful bite, I give a little piece of my heart back to this beautiful community.</p>
+          </div>
+          <div class="chef-signature">Wrapped with Love 🌯</div>
+          <div class="chef-qualities">
+            <span class="chef-quality">🌿 Always Fresh</span>
+            <span class="chef-quality">🏡 Homemade Recipes</span>
+            <span class="chef-quality">🌍 Global Spices</span>
+            <span class="chef-quality">❤️ Family Tradition</span>
+            <span class="chef-quality">🍁 Proudly Canadian</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INSTAGRAM SECTION -->
+  <section class="instagram-section">
+    <div class="container">
+      <div class="insta-inner reveal">
+        <div class="insta-text">
+          <span class="section-tag">Follow Along</span>
+          <h2 class="section-title">We're on <em>Instagram</em></h2>
+          <p>See our daily specials, behind-the-scenes, and flavour-packed moments. Join our growing community of food lovers in Mississauga and beyond!</p>
+          <a href="https://instagram.com/wrappedinflavour" target="_blank" class="btn-insta">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            @wrappedinflavour
+          </a>
+        </div>
+        <!-- Live Instagram embed via Elfsight or direct feed widget -->
+        <div class="insta-feed-container">
+          <div class="insta-feed-header">
+            <div class="insta-avatar">🌯</div>
+            <div>
+              <div class="insta-handle">@wrappedinflavour</div>
+              <div class="insta-tag">Wrapped in Flavour · Mississauga, ON</div>
+            </div>
+          </div>
+          <!-- Elfsight Instagram widget - replace APP_ID with your Elfsight widget ID -->
+          <!-- To embed your live Instagram feed:
+               1. Go to https://elfsight.com/instagram-feed-widget/
+               2. Create a free widget and connect @wrappedinflavour
+               3. Replace the div below with your Elfsight embed code -->
+          <div style="padding: 20px;">
+            <div class="insta-grid">
+              <div class="insta-item i1">🌯</div>
+              <div class="insta-item i2">🌶️</div>
+              <div class="insta-item i3">🧀</div>
+              <div class="insta-item i4">🥑</div>
+              <div class="insta-item i5">🍗</div>
+              <div class="insta-item i6">🧆</div>
+            </div>
+            <p style="text-align:center; margin-top:16px; font-size:0.8rem; color:#8B6355;">
+              ➡️ <a href="https://instagram.com/wrappedinflavour" target="_blank" style="color:#C1624A; font-weight:600;">Visit our Instagram</a> for live photos & daily specials
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Reviews</span>
+        <h2 class="section-title">What Our <em>Customers</em> Say</h2>
+      </div>
+      <div class="testi-grid">
+        <div class="testi-card reveal">
+          <div class="stars">★★★★★</div>
+          <p>"Hands down the best homemade wrap I've ever had in Mississauga. The Crispy Chicken wrap is INCREDIBLE. I order it every week!"</p>
+          <div class="testi-author">
+            <div class="testi-avatar">S</div>
+            <div>
+              <strong>Sarah M.</strong>
+              <span>Mississauga, ON</span>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card reveal">
+          <div class="stars">★★★★★</div>
+          <p>"Finally a Canadian homemade food brand that actually gets flavour right. The sauces are out of this world 🔥 Tastes like it was made with so much love."</p>
+          <div class="testi-author">
+            <div class="testi-avatar">J</div>
+            <div>
+              <strong>James K.</strong>
+              <span>Mississauga, ON</span>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card reveal">
+          <div class="stars">★★★★★</div>
+          <p>"Green Goddess wrap is my absolute go-to. Fresh, filling, and so flavourful. Ordering via WhatsApp is so easy — highly recommend!"</p>
+          <div class="testi-author">
+            <div class="testi-avatar">A</div>
+            <div>
+              <strong>Aisha R.</strong>
+              <span>Mississauga, ON</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ORDER CTA -->
+  <section class="order-cta-section">
+    <div class="order-cta-content">
+      <div class="section-tag" style="background:rgba(255,255,255,0.15);color:white;">Ready to Order?</div>
+      <h2 class="reveal">Craving Something <em>Delicious</em>?</h2>
+      <p class="reveal">Place your order directly via WhatsApp — it's quick, easy, and our team is ready to help. Visit our Contact page or message us now!</p>
+      <div class="order-cta-btns reveal">
+        <a href="https://wa.me/1XXXXXXXXXX?text=Hi!%20I'd%20like%20to%20place%20an%20order%20🌯" target="_blank" class="btn-white">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Order via WhatsApp
+        </a>
+        <a href="contact.html" class="btn-outline-white">Visit Contact Page</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-pattern"></div>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo footer-logo">
+            <span class="logo-icon">🌯</span>
+            <div class="logo-text">
+              <span class="logo-main">Wrapped in Flavour</span>
+              <span class="logo-sub">Mississauga, Ontario</span>
+            </div>
+          </a>
+          <p>Authentic homemade Canadian wraps crafted with passion, spice, and a whole lot of love — right here in Mississauga, ON.</p>
+          <div class="social-links">
+            <a href="https://instagram.com/wrappedinflavour" target="_blank" class="social-link" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="TikTok">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Our Menu</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact & Orders</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Our Menu</h4>
+          <ul>
+            <li><a href="menu.html">Signature Wraps</a></li>
+            <li><a href="menu.html">Flavour Bowls</a></li>
+            <li><a href="menu.html">Quesadillas</a></li>
+            <li><a href="menu.html">Sides & Drinks</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Order & Contact</h4>
+          <ul>
+            <li>📧 hello@wrappedinflavour.ca</li>
+            <li>📍 Mississauga, ON, Canada 🍁</li>
+            <li>⏰ Mon–Sun: 10am – 10pm</li>
+          </ul>
+          <a href="https://wa.me/1XXXXXXXXXX?text=Hi!%20I'd%20like%20to%20order%20🌯" target="_blank" class="footer-whatsapp">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            WhatsApp Order
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Wrapped in Flavour. All rights reserved. Made with ❤️ in Canada 🍁 | Website by <a href="https://thettec.com" target="_blank" style="color:rgba(249,234,227,0.7);">theittec.com</a></p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
